@@ -19,6 +19,7 @@ public class Tests extends TestBase {
     LoginPage loginPage = new LoginPage();
 
     @Tag("login")
+    @Tag("all_tests")
     @Test
     void loginTest() {
         loginPage

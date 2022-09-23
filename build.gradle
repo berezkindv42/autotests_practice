@@ -49,8 +49,14 @@ tasks.withType(Test) {
     }
 }
 
+task all_tests(type: Test) {
+    useJUnitPlatform {
+        includeTags 'all_tests'
+    }
+}
+
 task login_test(type: Test) {
     useJUnitPlatform {
-        includeTags 'login'
+        includeTags 'login_test'
     }
 }
