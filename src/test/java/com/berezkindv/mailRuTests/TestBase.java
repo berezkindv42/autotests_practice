@@ -9,8 +9,8 @@ public class TestBase {
 
     @BeforeAll
     static void beforeAllMethod() {
+        Configuration.baseUrl = "https://e.mail.ru";
         Configuration.browserSize = "1280x720";
-//        Configuration.baseUrl = "";
     }
 
     @AfterEach
