@@ -11,6 +11,12 @@ import static com.codeborne.selenide.Selenide.*;
 
 public class Tests extends TestBase {
 
+    // почитать про selenium вэйты
+    // пирамида тестирования
+    // потренить коллекции
+    // почитать про паттерны проектирования
+    // состав http протокола, GET не имеет тела, это главное отличие от POST
+
 //    @BeforeAll
 //    static void beforeAllMethod() {
 //        Configuration.baseUrl = "https://e.mail.ru";
